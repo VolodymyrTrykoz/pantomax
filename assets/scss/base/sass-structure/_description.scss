@@ -1,0 +1,32 @@
+.description {
+	background: url(../img/girl.png);				
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 66px;
+	padding: 0px 40px;
+	border-radius: 15px;
+	
+	& h2{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 48px;
+	padding-top: 23px;
+	margin-bottom: 25px;
+	line-height: 1.1;
+
+	}
+
+	p {
+		font-family: 'PT Sans', sans-serif;
+		font-size: 17px;
+		letter-spacing: -0.2px;
+	    line-height: 1.5;
+	    font-weight: 600;
+	    padding-bottom: 38px;
+		
+			& span {
+				text-transform: uppercase;
+				color: inherit;
+				font-weight: 800;
+			}
+		}
+}

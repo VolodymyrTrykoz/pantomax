@@ -1,0 +1,140 @@
+@media screen and (max-width: 1024px) {
+    .main__form {
+        left: 0;
+    }
+	.benefits__it-wrap {
+		justify-content: center;
+		margin: 0;
+	}
+    .benefits__item {
+    	margin-right: 5px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .main {
+		h1 {
+			font-size: 40px;
+			text-align: center;
+		}
+		&__points {
+			color: #fff;
+		    text-align: center;
+		    width: 100%;
+		}
+		&__discont {
+
+			margin: 0 auto;
+		}
+	    &__form {
+	       margin: 0 auto;
+	    }
+    }
+
+    .points__list {
+	    width: 35%;
+	    margin: 0 auto;
+	}
+
+	.list__item {
+		height: 50px;
+	}
+}
+
+
+@media screen and (max-width: 786px) {
+    .header {
+        
+        &__link {
+        	margin: 0 auto;
+        	& img:last-child {
+    		padding: 0;	
+			}
+        }
+        &__statistic {
+        	display: block;
+        	margin: 0 auto;
+	        	&:last-child{
+	        	padding-left: 0;
+	        	}
+        }
+    }
+
+    .points__list {
+	    width: 75%;
+	    margin: 0 auto;
+	}
+
+	.points__product img {
+		width: 50%;
+	}
+
+	.main__discont img {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.question {
+		&__inner-wrap {
+			width: 90%;
+			padding: 10px 20px 30px 20px;
+		}
+
+		&__tab {
+			font-size: 15px;
+			margin-bottom: 20px;
+			&:before {
+				padding: 4px 10px;
+			}
+		}
+
+		& p {
+			margin: 0 0 20px 0;
+		}
+	}
+
+	.tab__btn {
+		font-size: 15px;
+		padding: 10px;
+	}
+
+	.benefits {
+		&__wrap {
+			text-align: center;
+		}
+		&__product {
+			display: none;
+			
+		}
+	}
+
+	.description {
+		width: 90%;
+		margin: 0 auto;
+		background: #fff;
+		text-align: left;
+		& p {
+			font-size: 15px;
+		}
+		& h2 {
+			font-size: 35px;
+		}
+	}
+	.doctor-opinion {
+		width: 90%;
+		margin: 0 auto;
+		background-image: none;
+	}
+	.doctor-opinion__text {
+		width: 100%;
+		text-align: justify;
+		padding: 0 10px 70px 10px;
+	}
+
+	.doctor-opinion .text__name:after {
+    right: 0px;
+    bottom: -65px;
+}
+} 

@@ -1,0 +1,30 @@
+@import 'base/normalize';
+@import 'icons/iconfont__variables';
+@import 'icons/iconfont__icons';
+
+
+
+// Base Style
+@import "base/variables";
+@import "base/placeholders";
+
+
+
+// Google fonts
+
+@import "base/fonts";
+
+
+
+
+
+// Parts of my project
+@import 'base/sass-structure/header';
+
+@import 'base/sass-structure/main';
+
+@import 'base/sass-structure/question';
+@import 'base/sass-structure/description';
+@import 'base/sass-structure/benefits';
+@import 'base/sass-structure/doctor-opinion';
+@import 'base/sass-structure/media'; 

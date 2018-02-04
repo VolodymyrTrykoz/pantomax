@@ -1,0 +1,59 @@
+.benefits {
+	background-image: url(../img/benefits_bg.png);
+	background-repeat: no-repeat;
+	background-position: -30% 100%;
+	padding-bottom: 70px;
+	 & h2 {
+	 	color: #fff;
+	 	text-align: center;
+	 	letter-spacing: -0.5px;
+    	word-spacing: 3.5px;
+    	margin-left: -15px;
+	 }
+	 & span {
+		font-weight: 100;
+	 }
+	&__wrap {
+		display: flex;
+	} 
+	&__product {
+		margin: 17px 0 0 -70px;
+		width: 30%;
+	}
+	&__it-wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		margin-top: -12px;
+		margin-right: -20px;
+	}
+	&__item {
+		margin-right: 20px;
+		margin-bottom: 35px;
+		& figure {
+			margin: 0;
+			position: relative;
+			& img {
+				width: 100%;
+			}	
+		}
+		& figcaption {
+			margin-top: -3px;
+			width: 100%;
+			background: #fff;
+			text-align: center;
+			border-bottom-left-radius: 7px;
+			border-bottom-right-radius: 7px;
+			font-family: 'PT Sans', sans-serif;
+			font-weight: 800;
+			font-size: 16px;
+			height: 80px;
+			padding-top: 20px;
+		}
+
+		&:nth-child(4) figcaption{
+			padding: 5px;
+		}
+	} 
+}
+

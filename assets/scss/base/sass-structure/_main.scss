@@ -1,0 +1,232 @@
+.red {
+	color: #fc481a;
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 48px;
+}
+.wrapper {
+	max-width: 970px;
+	margin: 0 auto;
+	background-image: url(../img/main-bg.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+
+.main {
+		&__wrap {
+			display: flex;
+			flex-wrap: wrap;
+		}
+		& h1 {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 59px;
+		margin: 20px 0 10px 0;
+		background: -webkit-linear-gradient(45deg, #f0e394, #a8914d);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		word-spacing: 2px;
+	    }
+		&__points {
+			color: #fff;
+				& span {
+				font-size: 22px;;
+				font-family: 'Roboto', sans-serif;
+				letter-spacing: 0.5px;
+			}
+		}
+		
+		&__discont {
+			align-self: flex-end;
+			margin-bottom: 5px;
+    		margin-left: -15px;;
+			& div {
+				font-family: 'PT Sans Narrow', sans-serif;
+				color: #fff;
+				font-size: 19px;
+				text-align: center;
+				margin: 8px 0 60px 0;
+			}
+		}
+
+		&__form {
+			position: relative;
+			left:40px;
+			top:5px;
+
+		}	 
+	
+}
+.points__list {
+	padding: 20px 0;
+}
+
+.list__item {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	background-image: url(../img/pick.png);
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	height: 38px;
+}
+
+.form {
+	&__counter {
+		color: #fff;
+		display: flex;
+
+		& span {
+			font-family: 'PT Sans Narrow', sans-serif;
+			font-size: 19px;
+			align-self: center;
+			padding-left: 20px;
+		}
+	}
+	&__num {
+		font-family: 'PT Sans', sans-serif;
+		font-weight: 800;
+		font-size: 45px;
+		color: #000;
+		background: #fff;
+		margin-right: 5px;
+		padding: 0 10px;
+		border-radius: 5px;
+		position:relative;
+		&:before{
+			    content: ' ';
+			    display: block;
+			    width: 150%;
+			    height: 1px;
+			    background: #ccc;
+			    position: relative;
+			    left: 50%;
+			    top: 50%;
+			    -webkit-transform: translate(-50%, -50%);
+			    -ms-transform: translate(-50%, -50%);
+			    transform: translate(-50%, 0%);
+		}
+		&:first-child{
+			opacity: 0.5;
+		}
+	}
+	&__header {
+		display: flex;
+		justify-content: center;
+		font-size: 18px;
+		padding-top: 30px;
+		padding-bottom: 15px;
+		font-family: 'PT Sans Narrow', sans-serif;
+		color: #fff;
+		background: radial-gradient(at top,#c36546, #421309);
+		border-radius: 10px 10px 50% 50%;
+		position: absolute;
+		width: 380px;
+		top: 40px;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		overflow: hidden;
+			&:before {
+				content: '';
+				position: absolute;
+				top:-80px;
+				left:-110px;
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+				background: rgba(247,247,247,0.1);
+			}
+			& span {
+				font-size: 42px;
+				letter-spacing: 1.5px;
+			}
+	}
+
+
+	&__wrapper {
+		margin-top: 29px;
+		text-align: center;
+		padding: 15px;
+		background: #fff;
+		position: relative;
+		border-radius: 10px;
+		overflow: hidden;
+					
+	}
+
+	&__input {
+		padding: 10px 0;
+		&:first-child {
+		margin-top: 110px;
+		}
+		& input {
+		width: 100%;
+		padding: 15px;
+		border-radius: 5px;
+		background: #f6f6f6;
+		border: 1px solid #e1e1e1;
+		}
+	}
+
+	&__btn {
+		width: 100%;
+		margin-top: 18px;
+		padding: 15px;
+		border-radius: 5px;
+		border: none;
+		background: linear-gradient(to right, #b13112 1%,#b13112 22%,#f7491b 22%);
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-weight: bold;
+		font-size: 22px;
+		color: #fff;
+		text-align: left;
+		box-shadow: 0 5px 20px #fedcd3;
+
+		&:hover {
+			background: #b13112;
+		}
+		& span {
+			padding: 0 35px 0 10px;
+		}
+	}
+
+	&__protection {
+		padding: 20px 0 10px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+			& span {
+				&:last-child{
+				padding-left: 15px;
+				font-family: 'PT Sans Narrow', sans-serif;
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+
+	.placeholder {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		
+	}
+
+	.price__before {
+		text-align: right;
+		padding-right: 15px;
+
+		& span {
+			text-decoration: line-through;
+		}
+	}
+
+
+	.price__after  {
+		text-align: left; 
+		& span {
+		font-weight: bold;
+		}
+	}	
+
